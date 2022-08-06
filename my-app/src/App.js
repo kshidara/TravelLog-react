@@ -1,17 +1,33 @@
 import React from "react"
-//import data.js and components
+import data from "./data"
 
 
-export default function App(){
+export default function App() {
+
+  const cards = data.map(eachData => {
+
+    return <Card
+            
 
 
 
-return (
-  <div>
-    <Component1   />
-    <Component2   />
 
-  </div>
+
+          />
+
+
+  })
+
+
+
+  return (
+    <div>
+      <Navbar   />
+      <section className="cards-list">
+        {cards}    
+      </section>
+
+    </div>
 
   )
 }
