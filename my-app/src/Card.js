@@ -22,6 +22,5 @@ export default function Card(props) {
 
 }
 
-{/*<img className="card--img" src=""/>
-            <img className="pin--img" src=""/>*/}
+
             
