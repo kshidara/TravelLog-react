@@ -8,7 +8,8 @@ export default [
         startDate: "January 3rd",
         endDate: "January 4th",
         description: "description1",
-        image: "image1"
+        image: "kawaguchi.png",
+        pin:"locationPin.png"
     },
 
     {   
@@ -19,7 +20,9 @@ export default [
         startDate: "June 29",
         endDate: "June 29",
         description: "description2",
-        image: "image2"
+        image: "como.png",
+        pin:"locationPin.png"
+
     },
 
     {   
@@ -30,10 +33,13 @@ export default [
         startDate: "May 21",
         endDate: "June 12",
         description: "description3",
-        image: "image3"
+        image: "oc.png",
+        pin:"locationPin.png"
+
     },
 
 
 ]
 
-// A 40 minute train ride north east of Central Milan, this hidden, opulent, and relatively unknown place was an amazing destination. The lake was obviously the main attraction and all the surrounding shops, restaurants, 
+
+//description: "A 40 minute train ride north east of Central Milan, this hidden, opulent, and relatively unknown place was an amazing destination. The lake was obviously the main attraction but all the surrounding shops, restaurants, and businesses also didn't take away from the impressiveness of the town. ",

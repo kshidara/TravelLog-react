@@ -21,7 +21,7 @@
     top: 2px;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 20px;
     line-height: 18px;
     letter-spacing: -0.065em;
@@ -35,4 +35,52 @@
     width: 24px;
     height: 24px;
     top: 16px;
+}
+
+/*logo is overlapping with title when you minimize screen -- fix this!! */
+
+.cards-list {
+    padding: 80px;
+}
+
+.cards-list {
+    display: flex;
+    gap: 80px;
+    overflow-x: auto;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card {
+    width: 500px;
+    border-bottom: 1px solid #F5F5F5;
+    padding-bottom: 20px;
+    border: solid;
+}
+
+.card--rest {
+    flex-direction: column;
+    float: right;
+    border: solid;
+}
+
+.pin--img {
+    width: 20px;
+    height: 20px;
+}
+
+.card--img {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.card--description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #2B283A;
 }
