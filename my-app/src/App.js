@@ -3,6 +3,7 @@ import data from "./data"
 import Navbar from "./Navbar"
 import Card from "./Card"
 
+
 export default function App() {
 
   const cards = data.map(eachData => {

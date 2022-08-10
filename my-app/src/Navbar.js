@@ -1,12 +1,13 @@
 import React from "react";
-// import pin from "";
+import globe from "./images/navGlobe.png";
 
 
 export default function Navbar(argument) {
     return(
 
-        <nav>
-            <img alt="location pin" className="nav--logo" ></img>
+        <nav className="navv">
+            <img alt="location pin" className="nav--logo" src={globe} />
+            <h3 className="nav--title">my travel journal.</h3>
         </nav>
 
     )
